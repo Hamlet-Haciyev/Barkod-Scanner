@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+body .barkod__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #eee;
+  width: 300px;
+  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #916666;
+}
+
+body .barkod__wrapper .title {
+  margin-bottom: 10px;
+}
+
+body .barkod__wrapper .barkod {
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  border: 2px solid white;
+}
+
+body .barkod__wrapper .btn {
+  padding: 7px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+body .barkod__wrapper .status {
+  height: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
